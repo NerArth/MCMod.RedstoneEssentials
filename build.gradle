@@ -11,6 +11,25 @@ base {
 }
 
 repositories {
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = "Modrinth"
+                url = "https://api.modrinth.com/maven"
+            }
+        }
+        filter {
+            includeGroup "maven.modrinth"
+        }
+    }
+}
+
+configurations {
+    testRunMods {
+        canBeConsumed = false
+        canBeResolved = true
+        transitive = false
+    }
 }
 
 loom {
@@ -28,6 +47,13 @@ dependencies {
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
     implementation "net.fabricmc:fabric-loader:${project.loader_version}"
     implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+    clientCompileOnly "maven.modrinth:jade:${project.jade_modrinth_version}"
+
+    testRunMods "maven.modrinth:jei:${project.jei_modrinth_version}"
+    testRunMods "maven.modrinth:mezzconfig:${project.mezzconfig_modrinth_version}"
+    testRunMods "maven.modrinth:sodium:${project.sodium_modrinth_version}"
+    testRunMods "maven.modrinth:jade:${project.jade_modrinth_version}"
+    testRunMods "maven.modrinth:freecam:${project.freecam_modrinth_version}"
 }
 
 processResources {
@@ -52,4 +78,55 @@ jar {
     from("LICENSE") {
         rename { "${it}_${inputs.properties.archivesName}" }
     }
+}
+
+tasks.register('prepareTestRunMods') {
+    group = 'fabric'
+    description = 'Syncs configured Fabric test-run mods into run/mods/ when includeTestMods is enabled.'
+
+    def modsDir = layout.projectDirectory.dir('run/mods').asFile
+    def manifestFile = new File(modsDir, '.managed_test_mods.txt')
+    def includeTestMods = (findProperty('includeTestMods') ?: findProperty('include_test_mods') ?: 'true')
+            .toString().toBoolean()
+
+    inputs.property('includeTestMods', includeTestMods)
+    if (includeTestMods) {
+        inputs.files(configurations.testRunMods)
+    }
+
+    doLast {
+        modsDir.mkdirs()
+        if (manifestFile.exists()) {
+            manifestFile.readLines('UTF-8').each { String oldName ->
+                def trimmed = oldName.trim()
+                if (!trimmed.isEmpty()) {
+                    def oldFile = new File(modsDir, trimmed)
+                    if (oldFile.exists()) {
+                        oldFile.delete()
+                    }
+                }
+            }
+            manifestFile.delete()
+        }
+
+        if (!includeTestMods) {
+            return
+        }
+
+        def managedNames = []
+        configurations.testRunMods.resolve().each { File jarFile ->
+            def targetFile = new File(modsDir, jarFile.name)
+            jarFile.withInputStream { input ->
+                targetFile.withOutputStream { output ->
+                    output << input
+                }
+            }
+            managedNames << jarFile.name
+        }
+        manifestFile.write(managedNames.join('\n') + '\n', 'UTF-8')
+    }
+}
+
+tasks.matching { it.name == 'runClient' }.configureEach {
+    dependsOn(tasks.named('prepareTestRunMods'))
 }
