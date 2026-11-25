@@ -14,7 +14,8 @@
   "environment": "*",
   "entrypoints": {
     "main": ["nerarth.mods.redstone_essentials.RedstoneEssentials"],
-    "client": ["nerarth.mods.redstone_essentials.RedstoneEssentialsClient"]
+    "client": ["nerarth.mods.redstone_essentials.RedstoneEssentialsClient"],
+    "jade": ["nerarth.mods.redstone_essentials.compat.jade.RedstoneEssentialsJadePlugin"]
   },
   "mixins": [
     "redstone_essentials.mixins.json"

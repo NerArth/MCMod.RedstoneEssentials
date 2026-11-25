@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "A": "minecraft:amethyst_shard",
+    "C": "minecraft:copper_ingot",
+    "Q": "minecraft:quartz",
+    "R": "minecraft:redstone",
+    "S": "minecraft:stone"
+  },
+  "pattern": [
+    "CRC",
+    "RAR",
+    "SQS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "redstone_essentials:tuned_redstone_crystal"
+  }
+}

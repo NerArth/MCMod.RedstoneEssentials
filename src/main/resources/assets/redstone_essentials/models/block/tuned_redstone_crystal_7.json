@@ -1,0 +1,10 @@
+{
+    "textures":  {
+                     "output":  "minecraft:block/observer_back_on",
+                     "pip8":  "minecraft:block/observer_top",
+                     "pip1":  "minecraft:block/redstone_block",
+                     "pip4":  "minecraft:block/redstone_block",
+                     "pip2":  "minecraft:block/redstone_block"
+                 },
+    "parent":  "redstone_essentials:block/tuned_redstone_crystal_base"
+}

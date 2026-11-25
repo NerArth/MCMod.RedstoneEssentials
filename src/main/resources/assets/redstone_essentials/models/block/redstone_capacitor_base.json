@@ -1,0 +1,243 @@
+{
+    "ambientocclusion":  false,
+    "elements":  [
+                     {
+                         "faces":  {
+                                       "north":  {
+                                                     "cullface":  "north",
+                                                     "texture":  "#slab",
+                                                     "uv":  [
+                                                                0,
+                                                                14,
+                                                                16,
+                                                                16
+                                                            ]
+                                                 },
+                                       "up":  {
+                                                  "uv":  [
+                                                             0,
+                                                             0,
+                                                             16,
+                                                             16
+                                                         ],
+                                                  "texture":  "#slab"
+                                              },
+                                       "west":  {
+                                                    "cullface":  "west",
+                                                    "texture":  "#slab",
+                                                    "uv":  [
+                                                               0,
+                                                               14,
+                                                               16,
+                                                               16
+                                                           ]
+                                                },
+                                       "south":  {
+                                                     "cullface":  "south",
+                                                     "texture":  "#slab",
+                                                     "uv":  [
+                                                                0,
+                                                                14,
+                                                                16,
+                                                                16
+                                                            ]
+                                                 },
+                                       "east":  {
+                                                    "cullface":  "east",
+                                                    "texture":  "#slab",
+                                                    "uv":  [
+                                                               0,
+                                                               14,
+                                                               16,
+                                                               16
+                                                           ]
+                                                },
+                                       "down":  {
+                                                    "cullface":  "down",
+                                                    "texture":  "#slab",
+                                                    "uv":  [
+                                                               0,
+                                                               0,
+                                                               16,
+                                                               16
+                                                           ]
+                                                }
+                                   },
+                         "from":  [
+                                      0,
+                                      0,
+                                      0
+                                  ],
+                         "to":  [
+                                    16,
+                                    2,
+                                    16
+                                ]
+                     },
+                     {
+                         "faces":  {
+                                       "north":  {
+                                                     "uv":  [
+                                                                5,
+                                                                12,
+                                                                11,
+                                                                14
+                                                            ],
+                                                     "texture":  "#copper"
+                                                 },
+                                       "south":  {
+                                                     "uv":  [
+                                                                5,
+                                                                12,
+                                                                11,
+                                                                14
+                                                            ],
+                                                     "texture":  "#copper"
+                                                 },
+                                       "west":  {
+                                                    "uv":  [
+                                                               1,
+                                                               12,
+                                                               3,
+                                                               14
+                                                           ],
+                                                    "texture":  "#copper"
+                                                },
+                                       "up":  {
+                                                  "uv":  [
+                                                             5,
+                                                             1,
+                                                             11,
+                                                             3
+                                                         ],
+                                                  "texture":  "#copper"
+                                              },
+                                       "east":  {
+                                                    "uv":  [
+                                                               1,
+                                                               12,
+                                                               3,
+                                                               14
+                                                           ],
+                                                    "texture":  "#copper"
+                                                }
+                                   },
+                         "from":  [
+                                      5,
+                                      2,
+                                      1
+                                  ],
+                         "to":  [
+                                    11,
+                                    4,
+                                    3
+                                ]
+                     },
+                     {
+                         "faces":  {
+                                       "north":  {
+                                                     "uv":  [
+                                                                5,
+                                                                12,
+                                                                11,
+                                                                14
+                                                            ],
+                                                     "texture":  "#copper"
+                                                 },
+                                       "south":  {
+                                                     "uv":  [
+                                                                5,
+                                                                12,
+                                                                11,
+                                                                14
+                                                            ],
+                                                     "texture":  "#copper"
+                                                 },
+                                       "west":  {
+                                                    "uv":  [
+                                                               13,
+                                                               12,
+                                                               15,
+                                                               14
+                                                           ],
+                                                    "texture":  "#copper"
+                                                },
+                                       "up":  {
+                                                  "uv":  [
+                                                             5,
+                                                             13,
+                                                             11,
+                                                             15
+                                                         ],
+                                                  "texture":  "#copper"
+                                              },
+                                       "east":  {
+                                                    "uv":  [
+                                                               13,
+                                                               12,
+                                                               15,
+                                                               14
+                                                           ],
+                                                    "texture":  "#copper"
+                                                }
+                                   },
+                         "from":  [
+                                      5,
+                                      2,
+                                      13
+                                  ],
+                         "to":  [
+                                    11,
+                                    4,
+                                    15
+                                ]
+                     },
+                     {
+                         "faces":  {
+                                       "west":  {
+                                                    "uv":  [
+                                                               3,
+                                                               13,
+                                                               13,
+                                                               14
+                                                           ],
+                                                    "texture":  "#groove"
+                                                },
+                                       "up":  {
+                                                  "uv":  [
+                                                             7,
+                                                             3,
+                                                             9,
+                                                             13
+                                                         ],
+                                                  "texture":  "#groove"
+                                              },
+                                       "east":  {
+                                                    "uv":  [
+                                                               3,
+                                                               13,
+                                                               13,
+                                                               14
+                                                           ],
+                                                    "texture":  "#groove"
+                                                }
+                                   },
+                         "from":  [
+                                      7,
+                                      2,
+                                      3
+                                  ],
+                         "to":  [
+                                    9,
+                                    2.5,
+                                    13
+                                ]
+                     }
+                 ],
+    "textures":  {
+                     "slab":  "minecraft:block/smooth_stone",
+                     "copper":  "minecraft:block/copper_block",
+                     "groove":  "minecraft:block/observer_side",
+                     "particle":  "minecraft:block/smooth_stone"
+                 }
+}

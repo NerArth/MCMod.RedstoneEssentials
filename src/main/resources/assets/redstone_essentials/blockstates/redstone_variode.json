@@ -1,0 +1,348 @@
+{
+    "multipart":  [
+                      {
+                          "when":  {
+                                       "facing":  "south",
+                                       "powered":  "false",
+                                       "attenuation":  "1"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_1"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "south",
+                                       "powered":  "true",
+                                       "attenuation":  "1"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_1_on"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "south",
+                                       "powered":  "false",
+                                       "attenuation":  "2"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_2"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "south",
+                                       "powered":  "true",
+                                       "attenuation":  "2"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_2_on"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "south",
+                                       "powered":  "false",
+                                       "attenuation":  "4"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_4"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "south",
+                                       "powered":  "true",
+                                       "attenuation":  "4"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_4_on"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "south",
+                                       "powered":  "false",
+                                       "attenuation":  "8"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_8"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "south",
+                                       "powered":  "true",
+                                       "attenuation":  "8"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_8_on"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "west",
+                                       "powered":  "false",
+                                       "attenuation":  "1"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_1",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "west",
+                                       "powered":  "true",
+                                       "attenuation":  "1"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_1_on",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "west",
+                                       "powered":  "false",
+                                       "attenuation":  "2"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_2",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "west",
+                                       "powered":  "true",
+                                       "attenuation":  "2"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_2_on",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "west",
+                                       "powered":  "false",
+                                       "attenuation":  "4"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_4",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "west",
+                                       "powered":  "true",
+                                       "attenuation":  "4"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_4_on",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "west",
+                                       "powered":  "false",
+                                       "attenuation":  "8"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_8",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "west",
+                                       "powered":  "true",
+                                       "attenuation":  "8"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_8_on",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "north",
+                                       "powered":  "false",
+                                       "attenuation":  "1"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_1",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "north",
+                                       "powered":  "true",
+                                       "attenuation":  "1"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_1_on",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "north",
+                                       "powered":  "false",
+                                       "attenuation":  "2"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_2",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "north",
+                                       "powered":  "true",
+                                       "attenuation":  "2"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_2_on",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "north",
+                                       "powered":  "false",
+                                       "attenuation":  "4"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_4",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "north",
+                                       "powered":  "true",
+                                       "attenuation":  "4"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_4_on",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "north",
+                                       "powered":  "false",
+                                       "attenuation":  "8"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_8",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "north",
+                                       "powered":  "true",
+                                       "attenuation":  "8"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_8_on",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "east",
+                                       "powered":  "false",
+                                       "attenuation":  "1"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_1",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "east",
+                                       "powered":  "true",
+                                       "attenuation":  "1"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_1_on",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "east",
+                                       "powered":  "false",
+                                       "attenuation":  "2"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_2",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "east",
+                                       "powered":  "true",
+                                       "attenuation":  "2"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_2_on",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "east",
+                                       "powered":  "false",
+                                       "attenuation":  "4"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_4",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "east",
+                                       "powered":  "true",
+                                       "attenuation":  "4"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_4_on",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "east",
+                                       "powered":  "false",
+                                       "attenuation":  "8"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_8",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "facing":  "east",
+                                       "powered":  "true",
+                                       "attenuation":  "8"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/redstone_variode_8_on",
+                                        "y":  270
+                                    }
+                      }
+                  ]
+}

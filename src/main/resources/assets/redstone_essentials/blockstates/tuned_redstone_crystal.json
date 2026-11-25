@@ -1,0 +1,948 @@
+{
+    "multipart":  [
+                      {
+                          "when":  {
+                                       "power":  "0",
+                                       "facing":  "north"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_0"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "1",
+                                       "facing":  "north"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_1"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "2",
+                                       "facing":  "north"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_2"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "3",
+                                       "facing":  "north"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_3"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "4",
+                                       "facing":  "north"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_4"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "5",
+                                       "facing":  "north"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_5"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "6",
+                                       "facing":  "north"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_6"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "7",
+                                       "facing":  "north"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_7"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "8",
+                                       "facing":  "north"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_8"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "9",
+                                       "facing":  "north"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_9"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "10",
+                                       "facing":  "north"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_10"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "11",
+                                       "facing":  "north"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_11"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "12",
+                                       "facing":  "north"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_12"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "13",
+                                       "facing":  "north"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_13"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "14",
+                                       "facing":  "north"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_14"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "15",
+                                       "facing":  "north"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_15"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "0",
+                                       "facing":  "east"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_0",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "1",
+                                       "facing":  "east"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_1",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "2",
+                                       "facing":  "east"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_2",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "3",
+                                       "facing":  "east"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_3",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "4",
+                                       "facing":  "east"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_4",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "5",
+                                       "facing":  "east"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_5",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "6",
+                                       "facing":  "east"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_6",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "7",
+                                       "facing":  "east"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_7",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "8",
+                                       "facing":  "east"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_8",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "9",
+                                       "facing":  "east"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_9",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "10",
+                                       "facing":  "east"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_10",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "11",
+                                       "facing":  "east"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_11",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "12",
+                                       "facing":  "east"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_12",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "13",
+                                       "facing":  "east"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_13",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "14",
+                                       "facing":  "east"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_14",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "15",
+                                       "facing":  "east"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_15",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "0",
+                                       "facing":  "south"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_0",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "1",
+                                       "facing":  "south"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_1",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "2",
+                                       "facing":  "south"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_2",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "3",
+                                       "facing":  "south"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_3",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "4",
+                                       "facing":  "south"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_4",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "5",
+                                       "facing":  "south"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_5",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "6",
+                                       "facing":  "south"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_6",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "7",
+                                       "facing":  "south"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_7",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "8",
+                                       "facing":  "south"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_8",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "9",
+                                       "facing":  "south"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_9",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "10",
+                                       "facing":  "south"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_10",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "11",
+                                       "facing":  "south"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_11",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "12",
+                                       "facing":  "south"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_12",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "13",
+                                       "facing":  "south"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_13",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "14",
+                                       "facing":  "south"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_14",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "15",
+                                       "facing":  "south"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_15",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "0",
+                                       "facing":  "west"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_0",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "1",
+                                       "facing":  "west"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_1",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "2",
+                                       "facing":  "west"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_2",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "3",
+                                       "facing":  "west"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_3",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "4",
+                                       "facing":  "west"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_4",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "5",
+                                       "facing":  "west"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_5",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "6",
+                                       "facing":  "west"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_6",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "7",
+                                       "facing":  "west"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_7",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "8",
+                                       "facing":  "west"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_8",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "9",
+                                       "facing":  "west"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_9",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "10",
+                                       "facing":  "west"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_10",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "11",
+                                       "facing":  "west"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_11",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "12",
+                                       "facing":  "west"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_12",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "13",
+                                       "facing":  "west"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_13",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "14",
+                                       "facing":  "west"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_14",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "15",
+                                       "facing":  "west"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_15",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "0",
+                                       "facing":  "down"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_0",
+                                        "x":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "1",
+                                       "facing":  "down"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_1",
+                                        "x":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "2",
+                                       "facing":  "down"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_2",
+                                        "x":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "3",
+                                       "facing":  "down"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_3",
+                                        "x":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "4",
+                                       "facing":  "down"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_4",
+                                        "x":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "5",
+                                       "facing":  "down"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_5",
+                                        "x":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "6",
+                                       "facing":  "down"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_6",
+                                        "x":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "7",
+                                       "facing":  "down"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_7",
+                                        "x":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "8",
+                                       "facing":  "down"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_8",
+                                        "x":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "9",
+                                       "facing":  "down"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_9",
+                                        "x":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "10",
+                                       "facing":  "down"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_10",
+                                        "x":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "11",
+                                       "facing":  "down"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_11",
+                                        "x":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "12",
+                                       "facing":  "down"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_12",
+                                        "x":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "13",
+                                       "facing":  "down"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_13",
+                                        "x":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "14",
+                                       "facing":  "down"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_14",
+                                        "x":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "15",
+                                       "facing":  "down"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_15",
+                                        "x":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "0",
+                                       "facing":  "up"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_0",
+                                        "x":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "1",
+                                       "facing":  "up"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_1",
+                                        "x":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "2",
+                                       "facing":  "up"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_2",
+                                        "x":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "3",
+                                       "facing":  "up"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_3",
+                                        "x":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "4",
+                                       "facing":  "up"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_4",
+                                        "x":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "5",
+                                       "facing":  "up"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_5",
+                                        "x":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "6",
+                                       "facing":  "up"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_6",
+                                        "x":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "7",
+                                       "facing":  "up"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_7",
+                                        "x":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "8",
+                                       "facing":  "up"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_8",
+                                        "x":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "9",
+                                       "facing":  "up"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_9",
+                                        "x":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "10",
+                                       "facing":  "up"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_10",
+                                        "x":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "11",
+                                       "facing":  "up"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_11",
+                                        "x":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "12",
+                                       "facing":  "up"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_12",
+                                        "x":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "13",
+                                       "facing":  "up"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_13",
+                                        "x":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "14",
+                                       "facing":  "up"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_14",
+                                        "x":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "power":  "15",
+                                       "facing":  "up"
+                                   },
+                          "apply":  {
+                                        "model":  "redstone_essentials:block/tuned_redstone_crystal_15",
+                                        "x":  270
+                                    }
+                      }
+                  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "D": "minecraft:diamond",
+    "R": "minecraft:redstone",
+    "S": "minecraft:stone",
+    "T": "minecraft:copper_torch"
+  },
+  "pattern": [
+    " T ",
+    "CDC",
+    "SRS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "redstone_essentials:redstone_variode"
+  }
+}

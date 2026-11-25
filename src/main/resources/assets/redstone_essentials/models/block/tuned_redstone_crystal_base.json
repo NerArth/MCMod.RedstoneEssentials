@@ -1,0 +1,325 @@
+{
+    "parent":  "minecraft:block/block",
+    "elements":  [
+                     {
+                         "faces":  {
+                                       "north":  {
+                                                     "cullface":  "north",
+                                                     "texture":  "#input",
+                                                     "uv":  [
+                                                                0,
+                                                                0,
+                                                                16,
+                                                                16
+                                                            ]
+                                                 },
+                                       "west":  {
+                                                    "cullface":  "west",
+                                                    "texture":  "#side",
+                                                    "uv":  [
+                                                               0,
+                                                               0,
+                                                               16,
+                                                               16
+                                                           ]
+                                                },
+                                       "south":  {
+                                                     "cullface":  "south",
+                                                     "texture":  "#output",
+                                                     "uv":  [
+                                                                0,
+                                                                0,
+                                                                16,
+                                                                16
+                                                            ]
+                                                 },
+                                       "up":  {
+                                                  "cullface":  "up",
+                                                  "texture":  "#side",
+                                                  "uv":  [
+                                                             0,
+                                                             0,
+                                                             16,
+                                                             16
+                                                         ]
+                                              },
+                                       "east":  {
+                                                    "cullface":  "east",
+                                                    "texture":  "#side",
+                                                    "uv":  [
+                                                               0,
+                                                               0,
+                                                               16,
+                                                               16
+                                                           ]
+                                                },
+                                       "down":  {
+                                                    "cullface":  "down",
+                                                    "texture":  "#side",
+                                                    "uv":  [
+                                                               0,
+                                                               0,
+                                                               16,
+                                                               16
+                                                           ]
+                                                }
+                                   },
+                         "from":  [
+                                      0,
+                                      0,
+                                      0
+                                  ],
+                         "to":  [
+                                    16,
+                                    16,
+                                    16
+                                ]
+                     },
+                     {
+                         "faces":  {
+                                       "north":  {
+                                                     "uv":  [
+                                                                2,
+                                                                0,
+                                                                4,
+                                                                1
+                                                            ],
+                                                     "texture":  "#pip1"
+                                                 },
+                                       "south":  {
+                                                     "uv":  [
+                                                                2,
+                                                                0,
+                                                                4,
+                                                                1
+                                                            ],
+                                                     "texture":  "#pip1"
+                                                 },
+                                       "west":  {
+                                                    "uv":  [
+                                                               6,
+                                                               0,
+                                                               10,
+                                                               1
+                                                           ],
+                                                    "texture":  "#pip1"
+                                                },
+                                       "up":  {
+                                                  "uv":  [
+                                                             2,
+                                                             6,
+                                                             4,
+                                                             10
+                                                         ],
+                                                  "texture":  "#pip1"
+                                              },
+                                       "east":  {
+                                                    "uv":  [
+                                                               6,
+                                                               0,
+                                                               10,
+                                                               1
+                                                           ],
+                                                    "texture":  "#pip1"
+                                                }
+                                   },
+                         "from":  [
+                                      2,
+                                      15.25,
+                                      6
+                                  ],
+                         "to":  [
+                                    4,
+                                    16.25,
+                                    10
+                                ]
+                     },
+                     {
+                         "faces":  {
+                                       "north":  {
+                                                     "uv":  [
+                                                                5,
+                                                                0,
+                                                                7,
+                                                                1
+                                                            ],
+                                                     "texture":  "#pip2"
+                                                 },
+                                       "south":  {
+                                                     "uv":  [
+                                                                5,
+                                                                0,
+                                                                7,
+                                                                1
+                                                            ],
+                                                     "texture":  "#pip2"
+                                                 },
+                                       "west":  {
+                                                    "uv":  [
+                                                               6,
+                                                               0,
+                                                               10,
+                                                               1
+                                                           ],
+                                                    "texture":  "#pip2"
+                                                },
+                                       "up":  {
+                                                  "uv":  [
+                                                             5,
+                                                             6,
+                                                             7,
+                                                             10
+                                                         ],
+                                                  "texture":  "#pip2"
+                                              },
+                                       "east":  {
+                                                    "uv":  [
+                                                               6,
+                                                               0,
+                                                               10,
+                                                               1
+                                                           ],
+                                                    "texture":  "#pip2"
+                                                }
+                                   },
+                         "from":  [
+                                      5,
+                                      15.25,
+                                      6
+                                  ],
+                         "to":  [
+                                    7,
+                                    16.25,
+                                    10
+                                ]
+                     },
+                     {
+                         "faces":  {
+                                       "north":  {
+                                                     "uv":  [
+                                                                9,
+                                                                0,
+                                                                11,
+                                                                1
+                                                            ],
+                                                     "texture":  "#pip4"
+                                                 },
+                                       "south":  {
+                                                     "uv":  [
+                                                                9,
+                                                                0,
+                                                                11,
+                                                                1
+                                                            ],
+                                                     "texture":  "#pip4"
+                                                 },
+                                       "west":  {
+                                                    "uv":  [
+                                                               6,
+                                                               0,
+                                                               10,
+                                                               1
+                                                           ],
+                                                    "texture":  "#pip4"
+                                                },
+                                       "up":  {
+                                                  "uv":  [
+                                                             9,
+                                                             6,
+                                                             11,
+                                                             10
+                                                         ],
+                                                  "texture":  "#pip4"
+                                              },
+                                       "east":  {
+                                                    "uv":  [
+                                                               6,
+                                                               0,
+                                                               10,
+                                                               1
+                                                           ],
+                                                    "texture":  "#pip4"
+                                                }
+                                   },
+                         "from":  [
+                                      9,
+                                      15.25,
+                                      6
+                                  ],
+                         "to":  [
+                                    11,
+                                    16.25,
+                                    10
+                                ]
+                     },
+                     {
+                         "faces":  {
+                                       "north":  {
+                                                     "uv":  [
+                                                                12,
+                                                                0,
+                                                                14,
+                                                                1
+                                                            ],
+                                                     "texture":  "#pip8"
+                                                 },
+                                       "south":  {
+                                                     "uv":  [
+                                                                12,
+                                                                0,
+                                                                14,
+                                                                1
+                                                            ],
+                                                     "texture":  "#pip8"
+                                                 },
+                                       "west":  {
+                                                    "uv":  [
+                                                               6,
+                                                               0,
+                                                               10,
+                                                               1
+                                                           ],
+                                                    "texture":  "#pip8"
+                                                },
+                                       "up":  {
+                                                  "uv":  [
+                                                             12,
+                                                             6,
+                                                             14,
+                                                             10
+                                                         ],
+                                                  "texture":  "#pip8"
+                                              },
+                                       "east":  {
+                                                    "uv":  [
+                                                               6,
+                                                               0,
+                                                               10,
+                                                               1
+                                                           ],
+                                                    "texture":  "#pip8"
+                                                }
+                                   },
+                         "from":  [
+                                      12,
+                                      15.25,
+                                      6
+                                  ],
+                         "to":  [
+                                    14,
+                                    16.25,
+                                    10
+                                ]
+                     }
+                 ],
+    "textures":  {
+                     "pip8":  "minecraft:block/observer_top",
+                     "particle":  "minecraft:block/copper_block",
+                     "pip1":  "minecraft:block/observer_top",
+                     "pip4":  "minecraft:block/observer_top",
+                     "side":  "minecraft:block/observer_side",
+                     "input":  "minecraft:block/amethyst_block",
+                     "output":  "minecraft:block/observer_back",
+                     "pip2":  "minecraft:block/observer_top"
+                 }
+}

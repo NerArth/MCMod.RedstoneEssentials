@@ -1,1 +1,14 @@
-{}
+{
+  "itemGroup.redstone_essentials.redstone_essentials": "Redstone Essentials",
+  "block.redstone_essentials.tuned_redstone_crystal": "Tuned Redstone Crystal",
+  "block.redstone_essentials.redstone_variode": "Redstone Variode",
+  "block.redstone_essentials.redstone_capacitor": "Redstone Capacitor",
+  "tooltip.redstone_essentials.attenuation": "Attenuation: %s",
+  "tooltip.redstone_essentials.charge": "Charge: %s / 15",
+  "tooltip.redstone_essentials.retune_mode": "Retune Mode: %s",
+  "tooltip.redstone_essentials.state_on": "On",
+  "tooltip.redstone_essentials.state_off": "Off",
+  "config.jade.plugin_redstone_essentials.tuned_redstone_crystal": "Tuned Redstone Crystal",
+  "config.jade.plugin_redstone_essentials.redstone_variode": "Redstone Variode",
+  "config.jade.plugin_redstone_essentials.redstone_capacitor": "Redstone Capacitor"
+}
