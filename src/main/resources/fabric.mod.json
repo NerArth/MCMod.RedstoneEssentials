@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "redstone_essentials",
+  "version": "${version}",
+  "name": "Redstone Essentials",
+  "description": "Essential redstone components and utilities for Minecraft.",
+  "authors": ["NerArth"],
+  "contact": {
+    "homepage": "https://github.com/NerArth/MCMod.RedstoneEssentials",
+    "sources": "https://github.com/NerArth/MCMod.RedstoneEssentials",
+    "issues": "https://github.com/NerArth/MCMod.RedstoneEssentials/issues"
+  },
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["nerarth.mods.redstone_essentials.RedstoneEssentials"],
+    "client": ["nerarth.mods.redstone_essentials.RedstoneEssentialsClient"]
+  },
+  "mixins": [
+    "redstone_essentials.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
