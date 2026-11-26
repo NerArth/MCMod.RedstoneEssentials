@@ -8,6 +8,14 @@ A Fabric mod introducing essential redstone components and utilities for Minecra
 * **Fabric Loader:** `>=0.19.5`
 * **Fabric API**
 
+## Documentation
+
+See the **[Redstone Essentials Wiki](https://github.com/NerArth/MCMod.RedstoneEssentials/wiki)** for full component guides, crafting recipes, timing tables, and Jade tooltip details:
+
+* [Tuned Redstone Crystal](https://github.com/NerArth/MCMod.RedstoneEssentials/wiki/Tuned-Redstone-Crystal)
+* [Redstone Variode](https://github.com/NerArth/MCMod.RedstoneEssentials/wiki/Redstone-Variode)
+* [Redstone Capacitor](https://github.com/NerArth/MCMod.RedstoneEssentials/wiki/Redstone-Capacitor)
+
 ## License & Usage (Source-Available — All Rights Reserved)
 
 This repository is **Source-Available (All Rights Reserved)**—see [LICENSE](LICENSE).
